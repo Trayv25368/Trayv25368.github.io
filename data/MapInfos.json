@@ -1,5 +1,8 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Outside House","order":1,"parentId":0,"scrollX":819,"scrollY":461},
-{"id":2,"expanded":false,"name":"Inside house","order":2,"parentId":1,"scrollX":459,"scrollY":312.5}
+{"id":1,"expanded":true,"name":"Outside House","order":1,"parentId":0,"scrollX":1211.25,"scrollY":691.5},
+{"id":2,"expanded":true,"name":"Inside house","order":2,"parentId":1,"scrollX":1211.25,"scrollY":691.5},
+{"id":3,"expanded":true,"name":"Boulder pass","order":3,"parentId":2,"scrollX":1199.25,"scrollY":691.5},
+{"id":4,"expanded":false,"name":"bpdungeon","order":4,"parentId":3,"scrollX":1200.75,"scrollY":1102.5},
+{"id":5,"expanded":false,"name":"Debug Room ","order":5,"parentId":0,"scrollX":1211.25,"scrollY":691.5}
 ]
