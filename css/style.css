@@ -14,7 +14,8 @@ h1{
 }
 .segment{
 padding: 10px;
-border: 5px solid #000000;
+border: 3px solid #000000;
+margin-bottom: 10px;
 }
 
 p{
@@ -23,17 +24,17 @@ p{
 img {
   max-width: 300px;
 }
-.segment img
+.segment .leftimg
 {
   max-width: 200px;
   float: left;
-  margin: 0px 9px 10px 0px
+  margin-right: 10px
 }
 
-.segment .centerimg
+.segment .rightimg
 {
-  float: none;
- margin: auto;
+  float: right;
+  margin: left; 10px
 }
 
 /*
