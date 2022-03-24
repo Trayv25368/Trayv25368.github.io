@@ -1,32 +1,51 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <title>Tray's Website</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">
-     var randomNumber = Math.floor(Math.random() * 3);
-     var phrases = [`Hello`, `Hi`, `Yo`];
-     console.log(phrases[randomNumber]);
-  </script>
+    <title>Tray's Website</title>
   </head>
   <body>
-    <div id="content">
-      <div id="headerBox">
-        <h1>My Webpage</h1>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="JSFighter.html">JSFighterz</a>
+        <a href="game.html">RPGmaker</a>
+        <a href="index.html">Close</a>
       </div>
-        <div class="segment">
-         <img src="img/yuta.webp" alt="leftimg">
-         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex nibh, vehicula ac est non, volutpat elementum nulla. Duis pulvinar dictum finibus. Morbi eros diam, efficitur ac varius a, mattis vitae turpis. Praesent elementum tellus sem, at rhoncus est sollicitudin ac. Aenean consectetur nunc et semper ultricies. Aliquam erat volutpat. Integer viverra leo ac mollis interdum. In quis vehicula diam. In fringilla interdum rhoncus. In ac varius neque. Proin euismod odio lacus, facilisis suscipit dolor efficitur a. Quisque varius tortor ac est sagittis pharetra. Ut at sapien felis. Aenean egestas a mi non pharetra. Quisque at euismod libero.
-         </p>
-         <img src="img/okkotsu.webp" class="rightimg">
-         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex nibh, vehicula ac est non, volutpat elementum nulla. Duis pulvinar dictum finibus. Morbi eros diam, efficitur ac varius a, mattis vitae turpis. Praesent elementum tellus sem, at rhoncus est sollicitudin ac. Aenean consectetur nunc et semper ultricies. Aliquam erat volutpat. Integer viverra leo ac mollis interdum. In quis vehicula diam. In fringilla interdum rhoncus. In ac varius neque. Proin euismod odio lacus, facilisis suscipit dolor efficitur a. Quisque varius tortor ac est sagittis pharetra. Ut at sapien felis. Aenean egestas a mi non pharetra. Quisque at euismod libero.
-        </p>
-      </div>
-      <div class="Segment">
-        <h3> Play my game <h3>
-        <a href="game.html">Play my game </a>
     </div>
-   </body>
+
+
+<script>
+  /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+<div class="yuta">
+<img src="img/Yuta2.jpg" alt="Yuta">
+</div>
+
+<div class="welcome">
+<h5>Tray's Website</h5>
+</div>
+<p> Welcome to my website! Hopefully Everything is working correctly. Im a bit scared. Yes I like jujustu kaisen! Thanks for asking. Even though you didn't. 😳 </p>
+
+  </body>
 </html>

@@ -1,0 +1,9 @@
+[
+null,
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"Nature","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nature","traits":[],"initialLevel":1,"maxLevel":99,"name":"ButterDog","nickname":"Bdog","note":"","profile":"Dog with the butter on him."},
+{"id":5,"battlerName":"yup","characterIndex":0,"characterName":"Nigg","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nigg","traits":[],"initialLevel":1,"maxLevel":99,"name":"Trayvon ","nickname":"Taylor","note":"","profile":""},
+{"id":6,"battlerName":"Actor1_2","characterIndex":1,"characterName":"Actor1","classId":3,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"Actor1","traits":[{"code":21,"dataId":1,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Female character","nickname":"Female","note":"","profile":"Your useal female character. Specilizes in healing magic. (OFC)"}
+]
